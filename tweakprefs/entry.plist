@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = TweakPrefs;
+	cell = PSLinkCell;
+	detail = GLARootListController;
+	isController = 1;
+	label = AwesomeFeature;
+	icon = icon.png;
+    };
+}

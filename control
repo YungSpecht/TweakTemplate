@@ -1,0 +1,11 @@
+Package: com.developer.awesometweak
+Name: AwesomeTweak
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Does something awesome!
+Maintainer: Tweak Developer
+Author: Tweak Developer
+Section: Tweaks
+Depiction: [URL to Depiciton page]
+SileoDepiction: [URL to Sileo Depiciton page]

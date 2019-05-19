@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+	
+	    <!-- Banner and Twitter -->
+	 	<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>headerCellClass</key>
+			<string>HBImageTableCell</string>
+			<key>icon</key>
+			<string>banner.png</string>
+		</dict>
+        <dict>
+            <key>action</key>
+            <string>twitterProfile</string>
+            <key>cell</key>
+            <string>PSButtonCell</string>
+            <key>label</key>
+            <string>@(Twitter Handle)</string>
+            <key>cellClass</key>
+            <string>HBTwitterCell</string>
+            <key>label</key>
+            <string>(Name)</string>
+            <key>user</key>
+            <string>(Twitter Handle)</string>
+        </dict>
+
+	    <!-- General Preferences -->
+        <dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>General</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.developer.aweometweak</string>
+			<key>key</key>
+			<string>Enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>PostNotification</key>
+			<string>com.rango.awesometweak/ReloadPrefs</string>
+		</dict>
+
+		<!-- Custom Settings -->
+		<dict>
+		    <key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Custom Settings</string>
+		</dict>
+     	<dict>
+		    <key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.rango.gasolinaprefs</string>
+			<key>key</key>
+			<string>AwesomeFeature<string>
+			<key>label</key>
+			<string>Enable an Awesome Feature</string>
+			<key>PostNotification</key>
+			<string>com.rango.awesometweak/ReloadPrefs</string>
+		</dict>	
+			
+
+		<!-- Miscellaneous -->
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Miscellaneous</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>respring</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+      </array>
+	<key>title</key>
+	<string>AwesomeTweak</string>
+</dict>
+</plist>
